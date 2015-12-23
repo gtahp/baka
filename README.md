@@ -8,11 +8,14 @@ To run a program from a file:
 
 `node baka.js <file> arg1 arg2`
 
+To convert a Brainf*** program to Baka:
+
+`node BFtoBaka.js "Your Brainf*** program here"`
 
 ### Hello World!
 		
 ```
-		Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka? Baka. Baka? Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka? Baka. Baka? Baka. Baka. Baka. Baka. Baka. Baka? Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka? Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka? Baka. Baka. Baka? Baka. Baka? Baka. Baka? Baka. Baka? Baka. Baka! Baka! Baka? Baka! Baka. Baka? Baka. Baka. Baka. Baka? Baka. Baka. Baka. Baka? Baka! Baka! Baka. Baka? Baka. Baka? Baka. Baka. Baka! Baka? Baka? Baka. Baka? Baka! Baka? Baka. Baka! Baka! Baka? Baka! Baka. Baka? Baka. Baka? Baka! Baka. Baka. Baka? Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka. Baka! Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka. Baka. Baka? Baka. Baka? Baka! Baka. Baka? Baka. Baka! Baka! Baka! Baka. Baka? Baka. Baka! Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka. Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka. Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka. Baka. Baka? Baka. Baka? Baka. Baka. Baka! Baka. Baka. Baka? Baka. Baka. Baka. Baka. Baka! Baka. 
+Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka? Baka. Baka? Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka? Baka. Baka? Baka. Baka. Baka. Baka. Baka. Baka? Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka? Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka? Baka. Baka. Baka? Baka. Baka? Baka. Baka? Baka. Baka? Baka. Baka! Baka! Baka? Baka! Baka. Baka? Baka. Baka. Baka. Baka? Baka. Baka. Baka. Baka? Baka! Baka! Baka. Baka? Baka. Baka? Baka. Baka. Baka! Baka? Baka? Baka. Baka? Baka! Baka? Baka. Baka! Baka! Baka? Baka! Baka. Baka? Baka. Baka? Baka! Baka. Baka. Baka? Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka. Baka! Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka. Baka. Baka? Baka. Baka? Baka! Baka. Baka? Baka. Baka! Baka! Baka! Baka. Baka? Baka. Baka! Baka. Baka. Baka. Baka. Baka. Baka. Baka. Baka! Baka. Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka. Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka! Baka. Baka. Baka? Baka. Baka? Baka. Baka. Baka! Baka. Baka. Baka? Baka. Baka. Baka. Baka. Baka! Baka. 
 ```
 
 Outputs:
