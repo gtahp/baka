@@ -7,27 +7,27 @@ function main(code) {
   var pointer      = 0;
   var input_index  = -1;
 
-  for (i = 0; i < source.length && pointer >= 0; i++) { 
+  for (i = 0; i < source.length && pointer >= 0; i++) {
     if (source.charAt(i) == '[') loop[++pointer] = i;
-    if (source.charAt(i) == ']') {                                             
-      s[i] = loop[pointer]; 
-      e[loop[pointer]] = i; 
-      pointer--;                                      
+    if (source.charAt(i) == ']') {
+      s[i] = loop[pointer];
+      e[loop[pointer]] = i;
+      pointer--;
     }
   }
-  if (pointer != 0) { 
-    console.log("Missing Brackets");
+  if (pointer != 0) {
+    console.log("Missing Brackets!");
     return;
   }
- 
+
   for (i = 0; i < source.length; i++) {
       switch (source.charAt(i)) {
-      case '<':              
+      case '<':
         pointer--
-      break                   
-      case '>':                
-        pointer++             
-      break                  
+      break
+      case '>':
+        pointer++
+      break
       case '+':
         array[pointer]++
       break
@@ -42,7 +42,7 @@ function main(code) {
       case ',':
         array[pointer] = process.argv[3].charCodeAt(input_index++);
       break
-      case '.':                                   
+      case '.':
         process.stdout.write(String.fromCharCode(array[pointer]))
       break
     }
@@ -52,18 +52,18 @@ function main(code) {
 
 function toBF(source) {
   var result = "";
-  
+
   for (var i = 0; i < source.length; i+=2) {
     var current_char = source.charAt(i);
     var next_char    = source.charAt(i+1);
-    
+
     switch (current_char) {
     case '.':
       if (next_char == '.')      result += '+'
       else if (next_char == '!') result += ','
       else if (next_char == '?') result += '>'
     break
-    
+
     case '!':
       if (next_char == '.')      result += '.'
       else if (next_char == '!') result += '-'
@@ -73,9 +73,9 @@ function toBF(source) {
     case '?':
       if (next_char == '.')      result += '<'
       else if (next_char == '!') result += ']'
-    } 
+    }
   }
-  return result 
+  return result
 }
 
 exec  = require('child_process').exec;
